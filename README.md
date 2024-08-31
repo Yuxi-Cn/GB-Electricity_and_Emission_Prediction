@@ -70,3 +70,31 @@ Ridge and Lasso linear regression models, combined with grid search, are used fo
 - **Recommendation:** With increasing regulatory and societal focus on sustainable transition, it is advisable to prepare for phasing out fossil energy and gradually replacing it with low-carbon alternatives.
    - **For SMEs:** Switching to a greener electricity tariff with lower emissions can lead to cost savings, improved efficiency, regulatory compliance, and enhanced reputation.
    - **For Electricity Suppliers:** It is essential to actively reduce fossil fuel supply and ensure a smooth transition to zero-carbon energy. This can be achieved by effectively leveraging the periodic availability of renewables and energy storage solutions.
+ 
+## Contents
+
+**Table of Contents**
+
+1. **Data Import and Preparation**
+   - 1.1 Import Library and Read the File
+   - 1.2 Basic Data Quality Check
+   - 1.3 Data Processing
+3. **Data Visualisation**
+   - 2.1 Energy Trends
+   - 2.2 Evolution of Energy Proportions
+   - 2.3 Weight Analysis
+   - 2.4 Correlation Validation
+   - 2.5 Carbon Intensity Trends
+3. **Time-Series Prediction**
+   - 3.1 Linear regression Prediction
+      - 3.1.1 Ridge Regression
+      - 3.1.2 Lasso Regression
+      - 3.1.3 Model Optimisation
+   - 3.2 Prediction Data Processing
+   - 3.3 Prediction Visualisation
+  
+---
+
+| Project                                                                                                                                          | Author    |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| [GB Electricity and Emission Prediction](https://github.com/Yuxi-Cn/GB-Electricity_and_Emission_Prediction/blob/main/Electricity_Prediction.ipynb) | Yuxi Chen |
