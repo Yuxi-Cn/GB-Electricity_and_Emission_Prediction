@@ -1,0 +1,58 @@
+Dataset Information
+
+- df_fuel_gb: The original dataset obtained from the National ESO Website.
+- 09-24_fuel_gb: Data from 2009-01-01 to 2023-12-31.
+- updated_df_week: The formatted data aggregated to the weekly level.
+- updated_df_predictions_2024_2025: The forecasted data produced by the optimised model.
+
+
+Data Explanation
+
+- Basic Information
+  - Name: Historic GB Generation Mix
+  - Format: CSV
+  - Creator: National Grid Electricity System Operator
+  - Date Created: March 4, 2020, at 1:07 PM (UTC+00:00)
+  - Link: https://www.nationalgrideso.com/data-portal/historic-generation-mix
+
+The dataset is downloaded from the National ESO Data Portal, an open data website by Great Britain’s Electricity System Operator.
+
+
+Data Details:
+
+- The data in `09-24_fuel_gb.csv` is stored at half-hourly intervals and contains 32 columns and 262,944 rows. 
+- Below is the column information:
+
+  - DATETIME: Date and time of the historic generation mix and carbon intensity  
+  - GAS: Amount of generation delivered by gas  
+  - COAL: Amount of generation delivered by coal  
+  - NUCLEAR: Amount of generation delivered by nuclear  
+  - WIND: Amount of generation delivered by wind  
+  - HYDRO: Amount of generation delivered by hydro  
+  - IMPORTS: Amount of generation delivered by imports  
+  - BIOMASS: Amount of generation delivered by biomass  
+  - OTHER: Amount of generation delivered by other  
+  - SOLAR: Amount of generation delivered by solar  
+  - STORAGE: Amount of generation delivered by storage  
+  - GENERATION: Sum of gas, coal, nuclear, wind, hydro, and imports  
+  - CARBON_INTENSITY: Measure of CO2 emissions produced per kilowatt hour of electricity consumed  
+  - LOW_CARBON: Low carbon generation, including wind, solar, hydro, nuclear, biomass  
+  - ZERO_CARBON: Zero carbon generation, including wind, solar, hydro, nuclear  
+  - RENEWABLE: Renewable generation, including wind, hydro, solar  
+  - FOSSIL: Fossil generation, including coal, natural gas  
+  ---
+  - GAS_perc: Fuel type as a percentage for gas generation  
+  - COAL_perc: Fuel type as a percentage for coal generation  
+  - NUCLEAR_perc: Fuel type as a percentage for nuclear generation  
+  - WIND_perc: Fuel type as a percentage for wind generation  
+  - HYDRO_perc: Fuel type as a percentage for hydro generation  
+  - IMPORTS_perc: Fuel type as a percentage for imports generation  
+  - BIOMASS_perc: Fuel type as a percentage for biomass generation  
+  - OTHER_perc: Fuel type as a percentage for other generation  
+  - SOLAR_perc: Fuel type as a percentage for solar generation  
+  - STORAGE_perc: Fuel type as a percentage for storage generation  
+  - GENERATION_perc: Fuel type as a percentage for the sum of gas, coal, nuclear, wind, hydro, and imports  
+  - LOW_CARBON_perc: Fuel type as a percentage for low carbon generation, including wind, solar, hydro, nuclear, biomass  
+  - ZERO_CARBON_perc: Fuel type as a percentage for zero carbon generation, including wind, solar, hydro, nuclear  
+  - RENEWABLE_perc: Fuel type as a percentage for renewable generation, including wind, hydro, solar  
+  - FOSSIL_perc: Fuel type as a percentage for fossil generation, including coal, natural gas  
