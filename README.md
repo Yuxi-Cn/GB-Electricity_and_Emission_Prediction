@@ -39,7 +39,7 @@ Key steps for preparing data for modeling from the 31 features:
 
 #### Note: You can find the dataset and feature explanations stored in the 'Data_sources' folder.
 
-## Visualisation
+## Snapshot of Key Visualisations
 
 ### 1. Renewables vs. Carbon intensity
 ![image](https://github.com/user-attachments/assets/232796e3-7a3f-4f87-89fa-25c55aeceddb)
