@@ -4,7 +4,7 @@
 This project develops a linear regression model to predict future values in GB electricity generation and carbon intensity for 2024-2025. In the visualisation section, changes in coal and wind energy are highlighted as key drivers of more sustainable electricity generation. As a result, the forecasting and analysis will assist SMEs and electricity suppliers in strategically adjusting their trajectories for electricity consumption and development.
 
 > [!NOTE]
-> *The original LSTM model was replaced due to its limitations with single-variable inputs, and that compromised its effectiveness. In its place, a multivariate linear regression model was chosen for its ability to handle multiple variables simultaneously. This new model not only reduces complexity but also improves effectiveness and enhances readability, to better meet the project's illustrative needs here.*
+> *The original LSTM model was replaced due to its limitations with single-variable inputs, and it's also uneffective. In its place, a multivariate linear regression model was chosen for its ability to handle multiple variables simultaneously. This new model not only reduces complexity but also improves effectiveness and enhances readability, to better meet the illustrative needs here.*
 
 ## Analytics Background
 Leveraging machine learning for electricity and carbon intensity prediction offers **three key advantages** for relevant entities:
